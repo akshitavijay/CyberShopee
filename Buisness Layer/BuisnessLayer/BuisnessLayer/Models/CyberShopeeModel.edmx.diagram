@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b682bf6de6784425b54e02ba129678a5" Name="Diagram1">
+        <EntityTypeShape EntityType="CyberShopeeModel.category" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.customer" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.orderDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.product" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.role" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.shoppingCart" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.user" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="CyberShopeeModel.FK__products__catego__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__customers__userI__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__shoppingC__userI__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__orderDeta__produ__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__orderDeta__userI__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__shoppingC__produ__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__users__roleId__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

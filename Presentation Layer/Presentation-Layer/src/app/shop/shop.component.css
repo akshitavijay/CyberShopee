@@ -1,0 +1,60 @@
+/* card image styling */
+.custom-image-style {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+
+/* navbar containing search bar and category dropdown  */
+.newnavbar {
+background-color: grey;
+margin-bottom: 20px;
+}
+
+label {
+font-size: large;
+font-weight: bold;
+}
+
+/* to style search bar */
+.search {
+  margin-top: 35px;
+  margin-left: 30px;
+  width: 70%;
+  border-radius: 8px;
+  padding: 5px;
+}
+.form-group {
+  margin: 5px;
+  width: 90%;
+}
+
+.card {
+  margin-bottom: .75rem;
+  
+}
+
+.card-block {
+  /* padding: 1.25rem; */
+  text-align: center;
+  background-color: burlywood;
+}
+/* cart body styling */
+.product-desc-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.product-cart-item {
+  display: flex;
+}
+
+.product-cart-item-left {
+  display: flex;
+}
+
+.text-center {
+  display: block;
+  margin: auto;
+}
